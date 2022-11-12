@@ -1,3 +1,4 @@
 rootProject.name = "CapstoneMadeSubOne"
 include ':app'
 include ':core'
+include ':bookmarks'

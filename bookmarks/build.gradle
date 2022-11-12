@@ -1,6 +1,6 @@
 plugins {
-    id 'com.android.application'
-    id 'kotlin-android'
+    id 'com.android.dynamic-feature'
+    id 'org.jetbrains.kotlin.android'
     id 'kotlin-parcelize'
     id 'kotlin-kapt'
 }
@@ -9,10 +9,9 @@ apply from: '../shared_dependencies.gradle'
 
 android {
     compileSdkVersion 30
-    buildToolsVersion "30.0.3"
 
     defaultConfig {
-        applicationId "com.wahyush04.capstonemadesubone"
+        applicationId "com.wahyush04.bookmarks"
         minSdkVersion 21
         targetSdkVersion 30
         versionCode 1
@@ -33,29 +32,12 @@ android {
         targetCompatibility JavaVersion.VERSION_1_8
     }
 
-    kotlinOptions {
-        jvmTarget = '1.8'
-    }
-
     buildFeatures {
         viewBinding true
     }
-    dynamicFeatures = [':bookmarks']
-
 }
 
 dependencies {
-    implementation fileTree(dir: 'libs', include: ['*.jar'])
-
-    // Module
+    implementation project(":app")
     implementation project(":core")
-
-    // Kotlin
-    // noinspection DifferentStdlibGradleVersion
-    implementation "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
-
-    // UI
-    implementation "androidx.appcompat:appcompat:$app_compat_version"
-    implementation "com.google.android.material:material:$material_version"
-    implementation "androidx.constraintlayout:constraintlayout:$constraint_layout_version"
 }

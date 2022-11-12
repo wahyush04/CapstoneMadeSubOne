@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">CapstoneMadeSubOne</string>
     <string name="logo">Logo</string>
+    <string name="title_bookmarks">Bookmarks</string>
 </resources>
