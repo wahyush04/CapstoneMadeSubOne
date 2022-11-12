@@ -47,7 +47,7 @@ dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
 
     // Module
-//    implementation project(":core")
+    implementation project(":core")
 
     // Kotlin
     // noinspection DifferentStdlibGradleVersion
