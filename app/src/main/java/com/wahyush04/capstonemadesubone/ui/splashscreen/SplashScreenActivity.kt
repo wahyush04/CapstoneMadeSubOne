@@ -7,6 +7,7 @@ import android.os.Handler
 import com.wahyush04.capstonemadesubone.R
 import com.wahyush04.capstonemadesubone.databinding.ActivitySplashScreenBinding
 import com.wahyush04.capstonemadesubone.ui.main.MainActivity
+import com.wahyush04.core.Constant.SPLASH_SCREEN_DELAY
 
 class SplashScreenActivity : AppCompatActivity() {
 
@@ -17,10 +18,10 @@ class SplashScreenActivity : AppCompatActivity() {
 
         supportActionBar?.hide()
 
-//        Handler(mainLooper).postDelayed({
-//            startActivity(Intent(this, MainActivity::class.java)).also {
-//                finish()
-//            }
-//        }, SPLASH_SCREEN_DELAY.toLong())
+        Handler(mainLooper).postDelayed({
+            startActivity(Intent(this, MainActivity::class.java)).also {
+                finish()
+            }
+        }, SPLASH_SCREEN_DELAY.toLong())
     }
 }
