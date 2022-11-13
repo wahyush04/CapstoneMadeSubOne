@@ -9,8 +9,9 @@ object Constant {
     const val SAMPLING = 6
     const val TIME_OUT = 120
     const val THREAD_COUNT = 3
+    const val API_KEY = "2bf4768668d0c1b52884741695e57f51"
 
-    const val BASE_URL = "https://gnews.io/api/v4/search"
+    const val BASE_URL = "https://gnews.io/api/v4/search/"
     const val WATCHLIST_URI = "capstone://bookmarks"
     const val DATABASE_NAME = "gnews"
     const val DATABASE = "gnews.db"
