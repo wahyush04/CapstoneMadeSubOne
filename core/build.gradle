@@ -44,7 +44,6 @@ dependencies {
     implementation fileTree(dir: "libs", include: ["*.jar"])
 
     // Kotlin
-    // noinspection DifferentStdlibGradleVersion
     implementation "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
 
     // Room
@@ -59,12 +58,9 @@ dependencies {
     // Retrofit
     implementation "com.squareup.retrofit2:retrofit:$retrofit_version"
     implementation "com.squareup.retrofit2:converter-gson:$retrofit_version"
-    // noinspection GradleDependency
     implementation "com.squareup.okhttp3:logging-interceptor:$logging_interceptor_version"
 
     // Coroutines
-    // noinspection GradleDependency
     implementation "org.jetbrains.kotlinx:kotlinx-coroutines-core:$kotlin_coroutines_version"
-    // noinspection GradleDependency
     implementation "org.jetbrains.kotlinx:kotlinx-coroutines-android:$kotlin_coroutines_version"
 }
