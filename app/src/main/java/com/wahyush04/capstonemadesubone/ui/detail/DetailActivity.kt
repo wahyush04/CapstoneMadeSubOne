@@ -62,7 +62,6 @@ class DetailActivity : AppCompatActivity() {
         }
     }
 
-
     private fun setBookmarkStatus(state: Boolean){
         binding.fab.apply {
             if (state){

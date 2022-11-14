@@ -12,7 +12,7 @@ object Constant {
     const val API_KEY = "2bf4768668d0c1b52884741695e57f51"
 
     const val BASE_URL = "https://gnews.io/api/v4/"
-    const val BOOKMARK_URI = "capstone://bookmarks"
+    const val BOOKMARK_URI = "gnews://bookmark"
     const val DATABASE_NAME = "gnews"
     const val DATABASE = "gnews.db"
     const val TAG = "RemoteDataSource"

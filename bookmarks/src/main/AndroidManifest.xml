@@ -10,6 +10,22 @@
         <dist:delivery>
             <dist:install-time />
         </dist:delivery>
+
         <dist:fusing dist:include="true" />
     </dist:module>
+
+    <application>
+        <activity
+            android:name=".ui.BookmarkActivity"
+            android:parentActivityName="com.wahyush04.capstonemadesubone.ui.main.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:scheme="gnews"
+                    android:host="bookmark"/>
+            </intent-filter>
+
+        </activity>
+    </application>
+
 </manifest>
