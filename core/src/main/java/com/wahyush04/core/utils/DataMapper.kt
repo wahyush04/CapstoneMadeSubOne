@@ -1,7 +1,6 @@
 package com.wahyush04.core.utils
 
 import com.wahyush04.core.data.source.local.entity.GnewsEntity
-import com.wahyush04.core.data.source.remote.response.ListNewsResponse
 import com.wahyush04.core.data.source.remote.response.NewsResponse
 import com.wahyush04.core.domain.model.News
 

@@ -1,9 +1,9 @@
 package com.wahyush04.capstonemadesubone.ui.splashscreen
 
 import android.content.Intent
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.os.Handler
+import androidx.appcompat.app.AppCompatActivity
 import com.wahyush04.capstonemadesubone.R
 import com.wahyush04.capstonemadesubone.databinding.ActivitySplashScreenBinding
 import com.wahyush04.capstonemadesubone.ui.main.MainActivity

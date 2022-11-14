@@ -11,7 +11,7 @@
         android:layout_width="256dp"
         android:layout_height="163dp"
         android:contentDescription="@string/logo"
-        android:src="@drawable/logo_b"
+        android:src="@drawable/logo_gnews"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"

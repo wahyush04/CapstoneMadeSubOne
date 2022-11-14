@@ -2,16 +2,14 @@ package com.wahyush04.capstonemadesubone.ui.main
 
 import android.content.Intent
 import android.net.Uri.parse
-import android.opengl.Visibility
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.Menu
 import android.view.MenuItem
 import android.view.View
+import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.wahyush04.capstonemadesubone.R
 import com.wahyush04.capstonemadesubone.databinding.ActivityMainBinding
-import com.wahyush04.capstonemadesubone.di.viewModelModule
 import com.wahyush04.capstonemadesubone.ui.detail.DetailActivity
 import com.wahyush04.capstonemadesubone.ui.detail.DetailActivity.Companion.EXTRA_DATA
 import com.wahyush04.core.Constant.BOOKMARK_URI

@@ -8,7 +8,6 @@ import com.wahyush04.core.domain.model.News
 import com.wahyush04.core.domain.repository.INewsRepository
 import com.wahyush04.core.utils.AppExecutors
 import com.wahyush04.core.utils.DataMapper
-import com.wahyush04.core.utils.DataMapper.mapResponseToEntities
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.map
 

@@ -1,11 +1,10 @@
 package com.wahyush04.bookmarks.ui
 
 import android.content.Intent
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
+import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.wahyush04.bookmarks.R
 import com.wahyush04.bookmarks.databinding.ActivityBookmarkBinding
 import com.wahyush04.bookmarks.di.bookmarkModule
 import com.wahyush04.capstonemadesubone.ui.detail.DetailActivity

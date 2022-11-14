@@ -3,7 +3,6 @@ package com.wahyush04.core.data.source.remote
 import android.util.Log
 import com.wahyush04.core.data.source.remote.network.ApiResponse
 import com.wahyush04.core.data.source.remote.network.ApiService
-import com.wahyush04.core.data.source.remote.response.ListNewsResponse
 import com.wahyush04.core.data.source.remote.response.NewsResponse
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.flow.Flow
