@@ -8,6 +8,7 @@ import androidx.room.PrimaryKey
 @Entity(tableName = "tbl_news")
 data class GnewsEntity (
 
+
     @ColumnInfo(name = "title")
     val title: String,
 
@@ -23,6 +24,7 @@ data class GnewsEntity (
     @ColumnInfo(name = "image")
     val image: String,
 
+    @PrimaryKey
     @ColumnInfo(name = "publishedAt")
     val publishedAt: String,
 

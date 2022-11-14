@@ -1,5 +1,6 @@
 package com.wahyush04.core.adapter
 
+import android.text.method.TextKeyListener.clear
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -8,6 +9,7 @@ import com.bumptech.glide.Glide
 import com.wahyush04.core.R
 import com.wahyush04.core.databinding.ItemListBinding
 import com.wahyush04.core.domain.model.News
+import java.util.Collections.addAll
 
 class NewsAdapter: RecyclerView.Adapter<NewsAdapter.NewsViewHolder>(){
 
@@ -24,6 +26,15 @@ class NewsAdapter: RecyclerView.Adapter<NewsAdapter.NewsViewHolder>(){
     }
 
     override fun getItemCount(): Int = newsList.size
+
+    fun setData(List: List<News>?) {
+        if (List == null) return
+        newsList.apply {
+            clear()
+            addAll(List)
+            notifyDataSetChanged()
+        }
+    }
 
     inner class NewsViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
         private val binding = ItemListBinding.bind(itemView)
