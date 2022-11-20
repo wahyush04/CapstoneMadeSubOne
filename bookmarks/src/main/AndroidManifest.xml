@@ -13,10 +13,11 @@
         <dist:fusing dist:include="true" />
     </dist:module>
 
-    <application>
+    <application android:icon="@mipmap/ic_launcher">
         <activity
             android:name=".ui.BookmarkActivity"
-            android:parentActivityName="com.wahyush04.capstonemadesubone.ui.main.MainActivity">
+            android:parentActivityName="com.wahyush04.capstonemadesubone.ui.main.MainActivity"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.VIEW"/>
                 <category android:name="android.intent.category.DEFAULT"/>
