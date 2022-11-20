@@ -5,13 +5,11 @@ import android.os.Bundle
 import android.os.Handler
 import androidx.appcompat.app.AppCompatActivity
 import com.wahyush04.capstonemadesubone.R
-import com.wahyush04.capstonemadesubone.databinding.ActivitySplashScreenBinding
 import com.wahyush04.capstonemadesubone.ui.main.MainActivity
 import com.wahyush04.core.Constant.SPLASH_SCREEN_DELAY
 
 class SplashScreenActivity : AppCompatActivity() {
 
-    private lateinit var binding: ActivitySplashScreenBinding
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_splash_screen)
